@@ -7,6 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div class="header_container">
+        <%= link_to 'SHOP SPERO', main_path%>
+        <div class="navigation">
+            <ul>
+              <li><%= link_to 'Originals', shop_path%></li>
+              <li><%= link_to 'Women', shop_path%></li>
+              <li><%= link_to 'Men', shop_path%></li>
+              <li><%= link_to 'About', about_path%></li>
+            </ul>
+        </div>
+    </div>
 <%= yield %>
 
 </body>
