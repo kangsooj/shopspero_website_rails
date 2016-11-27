@@ -1,0 +1,20 @@
+.container {
+    margin-left: 10%;
+}
+
+.item_container {
+    margin: 15px;
+    display: inline-block;
+    width: 26%;
+}
+.item_container img {
+    width: 100%;
+    margin: 0px;
+    
+}
+.item_container p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
