@@ -5,19 +5,26 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Raleway" rel="stylesheet">
 </head>
 <body>
-    <div class="header_container">
-        <%= link_to 'SHOP SPERO', main_path%>
-        <div class="navigation">
-            <ul>
-              <li><%= link_to 'Originals', shop_path%></li>
-              <li><%= link_to 'Women', shop_path%></li>
-              <li><%= link_to 'Men', shop_path%></li>
-              <li><%= link_to 'About', about_path%></li>
-            </ul>
+    <div class="meta_container">
+        <div class="header_container">
+            <div class="header">
+                <%= link_to 'SHOP SPERO', main_path%>
+            </div>
+            <div class="navigation">
+                <ul>
+                  <li><%= link_to 'Originals', shop_path%></li>
+                  <li><%= link_to 'Women', shop_path%></li>
+                  <li><%= link_to 'Men', shop_path%></li>
+                  <li><%= link_to 'About', about_path%></li>
+                </ul>
+            </div>
         </div>
     </div>
+    
+
 <%= yield %>
 
 </body>

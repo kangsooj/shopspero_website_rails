@@ -14,9 +14,45 @@
  *= require_self
  */
 
+.meta_container :hover {
+    /*background-color: yellow;*/
+}
+.meta_container {
+    /*background-color:purple;*/
+    height: 150px;
+    margin: 0px;
+    width: 100%;
+}
+.header a {
+    font-family: 'Josefin Slab', serif;
+    font-size:55px;
+    text-decoration: none;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+    /*padding: 10px;*/
+    /*margin-top:20px;*/
+    display:block;
+    padding-top: 40px;
+}
+
 .navigation li {
     display: inline;
 }
 .navigation ul {
     list-style-type: none;
+    text-align: center;
+    padding-bottom:20px;
+    -webkit-padding-start: 0px !important;
+}
+.navigation a {
+    text-decoration: none;
+    color:black;
+    font-size:12px;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px 15px 5px 15px;
+}
+
+.navigation a:hover {
+    color:gray;
 }
